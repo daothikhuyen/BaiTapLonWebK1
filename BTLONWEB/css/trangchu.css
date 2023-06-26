@@ -1,0 +1,125 @@
+.shopnow{
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.hidden{
+    display: none;
+}
+
+.shopnow a{
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.shopnow a:hover{
+    background-color: rgb(170, 58, 58);
+    color: antiquewhite;
+    border: none;
+}
+.shopnow h1{
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-weight: 100;
+    transition: 0.5s;
+}
+
+
+main div.container-fluid h1{
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(131, 6, 6);
+}
+main div.container-fluid h6{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(107, 104, 104);;
+}
+
+.content-noibat button{
+    width: 150px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    color: rgb(131, 6, 6);
+    font-weight: bold;
+}
+.content-noibat button:hover{
+    background-color: #b87b7b;
+    color: antiquewhite;
+}
+
+.content-noibat h4{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(131, 6, 6);
+}
+
+.dichvu b{
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+/* LSLIDER */
+.swiper h1{
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(131, 6, 6);
+}
+
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    margin: 0 2rem;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-dark{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-dark:hover{
+    background-color: #b87b7b;
+    color: antiquewhite;
+    border: none;
+}
+h4,h5{
+    color: #FEA1A1;
+}
+
+.swiper-button-next::after {
+    --swiper-theme-color: #b71515;
+}
+/* LSLIDER */
+
+.content-noibat img:hover{
+    opacity: 75%; 
+}
+
+.lien-he b{
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+.logo{
+    width: 300px;
+}

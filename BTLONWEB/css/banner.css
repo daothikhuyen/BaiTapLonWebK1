@@ -1,0 +1,35 @@
+.banner{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 25vw;
+}
+.banner h1{
+    color: rgb(147, 48, 64);    
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+}
+.banner a{
+    text-decoration: none;
+    font-size: 80%;
+    color: rgb(3, 55, 3);
+}
+.banner a:hover {
+    color: rgb(147, 48, 64);
+    font-weight: 600;
+}
+.banner .text{
+    font-size:  80%;
+    color: rgb(3, 55, 3);
+}
+.ngach::before{
+    content: "|";
+}
+.ngach{
+    display: inline-block;
+    position: relative;
+    margin: 0 1em;
+    vertical-align: top;
+    text-align: center;
+    color: rgb(152, 6, 30);
+}
+

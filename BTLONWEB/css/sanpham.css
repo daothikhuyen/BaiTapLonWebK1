@@ -1,0 +1,58 @@
+.hidden{
+    display: none;
+}
+.sanphanvjp button{
+    width: 180px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid;
+    color: rgb(131, 6, 6);
+    font-weight: bold;
+}
+.sanphanvjp button:hover{
+    background-color: #b87b7b;
+    color: antiquewhite;
+}
+
+.sanphanvjp img{
+    display: block;
+    transition: all .4s ease;
+}
+.sanphanvjp img:hover{
+    transform: scale(1.2);
+}
+.sanphanvjp .img-zoom{
+    display: block;
+    overflow: hidden;
+}
+
+.product-container{
+    padding: 10px;
+}
+
+.img-product img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .title-product,
+  .price-product,
+  .ic-del-cart{
+    color: #000;
+  }
+
+.box-product-cart{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7dcdc;
+  }
+
+.lien-he b{
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+.logo{
+    width: 300px;
+}

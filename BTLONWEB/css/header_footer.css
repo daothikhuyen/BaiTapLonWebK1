@@ -1,0 +1,37 @@
+header div.container-fluid a.navbar-brand{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ header div#navbarNavDropdown ul li a:hover{
+    color: rgb(243, 210, 166);
+ }
+header nav{
+   background-color: #b87b7b;
+}
+
+
+header nav .dropdown-menu{
+   background-color: #b87b7b;
+}
+
+.dropdown:hover .dropdown-menu{
+   display: block;
+   margin-top: 0;
+}
+
+header nav .dropdown-menu .dropdown-item:hover{
+   background-color: #b87b7b;
+}
+
+header nav .dropdown-menu li a{
+   color: aliceblue;
+}
+footer{
+   background-color: #b87b7b;
+}
+
+footer a:hover{
+   margin-left: 10px;
+   transition: 0.7s;
+}
+

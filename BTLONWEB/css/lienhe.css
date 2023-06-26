@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hidden{
+    display: none;
+}
+
+
+.lien-he b{
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+.LHVCT .caption h3{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.LHVCT .caption p,.Lien_He_form, span.pri{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #debaa4;
+}
+
+.logo{
+    width: 300px;
+}
