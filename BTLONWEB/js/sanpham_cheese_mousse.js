@@ -17,6 +17,11 @@ function handleLogout() {
     localStorage.setItem("isLogin", false);
 }
 
+// Tách biệt giữa dữ liệu và giao diện
+// Dễ dàng thao tác với dữ liệu 
+// Bảo mật
+// Dữ liệu có thể duy trì sau khi tải trang
+
 let listProduct = [
     {
         id: 24,
@@ -137,7 +142,8 @@ function viewDetail(id) {
                                         <div class="row">
 
                                             <div class="col-sm-6 col-md-6 mb-3">
-                                                <img class="w-100"
+                                                <img
+                                                 class="w-100"
                                                      src="${value.img}"
                                                      alt="cucgiay">
                                             </div>
@@ -193,6 +199,8 @@ if (listCart) {
   })
 }
 
+// Thêm vào giỏ hàng
+
 function addToCart(index) {
     // biến tạm
     let productChoice;
@@ -242,6 +250,7 @@ function addToCart(index) {
   
   }
   
+//    xoá khỏi giỏ hàng
   function handleDeleteProductInCart(id) {
     listCart.forEach((value, index) => {
       if (value.id == id) {

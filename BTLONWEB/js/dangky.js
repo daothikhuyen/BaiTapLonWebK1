@@ -4,7 +4,7 @@ const password = document.querySelector(".password-register");
 const passagain = document.querySelector(".passagain-register");
 const btn = document.querySelector(".btnDK");
 btn.addEventListener("click", (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     if (username.value === "" || password.value === "") {
       Swal.fire({
         icon: 'error',
